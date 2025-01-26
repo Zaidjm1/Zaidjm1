@@ -10,7 +10,7 @@ import Error from './error'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/Zaidjm1/">
       <Routes>
         <Route path="/" element={<Nav/>}>
           <Route index element={<App/>}/>
