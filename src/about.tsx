@@ -14,7 +14,7 @@ export default function About(){
 
                 <p className="mt-10 md:text-[18px] text-[16px]">If you're interested in working together, you can contact me here</p>
 
-                <a href="https://zaidjm1.github.io/Zaidjm1/contact"><div className="bg-gray-900 mt-2 w-[100px] absolute h-8 rounded-lg hover:bg-gray-700 text-white">
+                <a href="/contact"><div className="bg-gray-900 mt-2 w-[100px] absolute h-8 rounded-lg hover:bg-gray-700 text-white">
                     <p className="mt-1 text-center">Contact</p>
                 </div></a>
             
