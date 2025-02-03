@@ -32,7 +32,7 @@ export default function App(){
                     </div>
                 </div></a>
 
-                <a href='https://zaiiiiiid.github.io/'><div className='font-runic text-[12px] md:text-[14px] mb-10'>
+                <a href='https://zaidjm1.github.io/mighty-tea/'><div className='font-runic text-[12px] md:text-[14px] mb-10'>
                     <div className='h-auto w-[360px] md:h-[400px] md:w-[600px] m-auto rounded-md border shadow-lg bg-gray-100 hover:bg-gray-200 cursor-pointer transition-colors'>
                         <img src={project2}className='rounded size-auto relative m-auto w-[90%] mt-10'/>
                         <p className='text-center mt-10'>Mighty Tea website.</p>
