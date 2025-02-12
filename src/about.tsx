@@ -4,7 +4,7 @@ export default function About(){
 
             <h1 className="mt-20 text-center border-b md:w-[800px] m-auto md:text-[40px] text-[30px] font-runic font-bold">About</h1>
 
-            <div className="ml-auto mr-auto md:w-[1000px] mt-10 font-mono text-justify px-10">
+            <div className="ml-auto mr-auto md:w-[1000px] mt-10 font-mono text-justify px-10 animate-fade-left">
 
                 <p className="md:text-[18px] text-[16px]">Hi, I'm Michael Jay. I love building and creating fun stuff since I was a kid.</p>
 
@@ -14,7 +14,7 @@ export default function About(){
 
                 <p className="mt-10 md:text-[18px] text-[16px]">If you're interested in working together, you can contact me here</p>
 
-                <a href="/contact"><div className="bg-gray-900 mt-2 w-[100px] absolute h-8 rounded-lg hover:bg-gray-700 text-white">
+                <a href="/Zaidjm1/contact"><div className="bg-gray-900 mt-2 w-[100px] absolute h-8 rounded-lg hover:bg-gray-700 text-white">
                     <p className="mt-1 text-center">Contact</p>
                 </div></a>
             

@@ -6,12 +6,20 @@ export default {
   ],
   theme: {
     extend: {
+      animation:{
+        
+      },
+      keyframes: {
+          
+      },
       fontFamily: {
         bio: ['"BioRhyme"', "serif"],
         runic: ['"Noto Sans Runic"', "sans-serif"],
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
 

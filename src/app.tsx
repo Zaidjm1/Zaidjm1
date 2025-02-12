@@ -5,6 +5,7 @@ import js from './assets/images/js.png'
 import react from './assets/images/react.png'
 import project1 from './assets/images/hobbies.png'
 import project2 from './assets/images/project2.png'
+import ts from './assets/images/ts.png'
 
 export default function App(){
     return(
@@ -24,18 +25,32 @@ export default function App(){
 
             <p className='mt-20 mb-20 text-[14px] md:text-[20px] font-bold text-center font-runic'>Personal Projects</p>
 
-            <div className='md:flex md:justify-center md:gap-10'>
-                <a href='https://zaiiiiiid.github.io/'><div className='font-runic text-[12px] md:text-[14px] mb-10'>
-                    <div className='h-auto w-[360px] md:h-[400px] md:w-[600px] m-auto rounded-md border shadow-lg bg-gray-100 hover:bg-gray-200 cursor-pointer transition-colors'>
-                        <img src={project1}className='rounded size-auto relative m-auto w-[90%] mt-10'/>
-                        <p className='text-center mt-10'>My first ever project. A website about me and my capstone project.</p>
+            <div className='md:flex md:justify-center md:gap-10 animate-fade-up'>
+                <a href='https://zaiiiiiid.github.io/'><div className='group font-runic text-[12px] md:text-[14px] mb-10'>
+                    <div className='h-auto max-w-[360px] md:h-[400px] md:max-w-[600px] m-auto rounded-md border shadow-lg bg-gray-100 hover:bg-gray-700 cursor-pointer transition-colors'>
+                        <img src={project1} className='rounded max-h-[280px] relative m-auto max-w-[90%] mt-10 group-hover:scale-105 transition duration-500'/>
+                        <p className='text-center mt-4 mb-4 md:mt-10 font-serif group-hover:hidden'>My first ever project. A website about me and my capstone project.</p>
+                        <div className='flex justify-center mt-10 mb-10 gap-10 hidden group-hover:flex'>
+                            <img src={css} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='CSS'/>
+                            <img src={html} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='HTML'/>
+                            <img src={js} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='JavaScript'/>
+                            <img src={twcss} className='h-6 w-10 md:h-10 md:w-14 animate-fade-up animate-duration-1000' title='TailwindCSS'/>
+                            <img src={react} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='ReactJS'/>
+                        </div>
                     </div>
                 </div></a>
 
-                <a href='https://zaidjm1.github.io/mighty-tea/'><div className='font-runic text-[12px] md:text-[14px] mb-10'>
-                    <div className='h-auto w-[360px] md:h-[400px] md:w-[600px] m-auto rounded-md border shadow-lg bg-gray-100 hover:bg-gray-200 cursor-pointer transition-colors'>
-                        <img src={project2}className='rounded size-auto relative m-auto w-[90%] mt-10'/>
-                        <p className='text-center mt-10'>Mighty Tea website.</p>
+                <a href='https://zaidjm1.github.io/mighty-tea/'><div className='group font-runic text-[12px] md:text-[14px] mb-10'>
+                    <div className='h-auto max-w-[360px] md:h-[400px] md:max-w-[600px] m-auto rounded-md border shadow-lg bg-gray-100 hover:bg-gray-700 cursor-pointer transition-colors'>
+                        <img src={project2} className='rounded max-h-[280px] relative m-auto max-w-[90%] mt-10 group-hover:scale-105 transition duration-500'/>
+                        <p className='text-center mt-4 mb-4 md:mt-10 font-serif group-hover:hidden'>Mighty Tea.</p>
+                        <div className='flex justify-center mt-10 mb-10 gap-10 hidden group-hover:flex'>
+                            <img src={ts} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='TypeScript'/>
+                            <img src={html} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='HTML'/>
+                            <img src={js} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='JavaScript'/>
+                            <img src={twcss} className='h-6 w-10 md:h-10 md:w-14 animate-fade-up animate-duration-1000' title='TailwindCSS'/>
+                            <img src={react} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='ReactJS'/>
+                        </div>
                     </div>
                 </div></a>
             </div>
