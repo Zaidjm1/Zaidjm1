@@ -15,9 +15,10 @@ export default function App(){
                 <p className="text-center text-[18px] md:text-[24px] mt-[-10px] text-gray-500">A fresher from CvSU</p>
                 <p className="text-center text-[12px] md:text-[18px] mt-10">I'm a front-end web developer!</p>
                 <div className='flex justify-center mt-10 gap-4'>
+                    <img src={css} className='size-10 md:size-14' title='CSS'/>
                     <img src={html} className='size-10 md:size-14' title='HTML'/>
                     <img src={js} className='size-10 md:size-14' title='JavaScript'/>
-                    <img src={twcss} className='size-10 md:size-14' title='TailwindCSS'/>
+                    <img src={twcss} className='h-10 w-12 md:h-14 md:w-16' title='TailwindCSS'/>
                     <img src={react} className='size-10 md:size-14' title='ReactJS'/>
                 </div>
             </div>
@@ -30,7 +31,6 @@ export default function App(){
                         <img src={project1} className='rounded max-h-[280px] relative m-auto max-w-[90%] mt-10 group-hover:scale-105 transition duration-500'/>
                         <p className='text-center mt-4 mb-4 md:mt-10 font-serif group-hover:hidden'>My first ever project. A website about me and my capstone project.</p>
                         <div className='flex justify-center mt-10 mb-10 gap-10 hidden group-hover:flex'>
-                            <img src={css} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='CSS'/>
                             <img src={html} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='HTML'/>
                             <img src={js} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='JavaScript'/>
                             <img src={twcss} className='h-6 w-10 md:h-10 md:w-14 animate-fade-up animate-duration-1000' title='TailwindCSS'/>
