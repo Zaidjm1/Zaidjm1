@@ -15,7 +15,6 @@ export default function App(){
                 <p className="text-center text-[18px] md:text-[24px] mt-[-10px] text-gray-500">A fresher from CvSU</p>
                 <p className="text-center text-[12px] md:text-[18px] mt-10">I'm a front-end web developer!</p>
                 <div className='flex justify-center mt-10 gap-4'>
-                    <img src={css} className='size-10 md:size-14' title='CSS'/>
                     <img src={html} className='size-10 md:size-14' title='HTML'/>
                     <img src={js} className='size-10 md:size-14' title='JavaScript'/>
                     <img src={twcss} className='size-10 md:size-14' title='TailwindCSS'/>
