@@ -20,8 +20,8 @@ createRoot(document.getElementById('root')!).render(
         </Route>
       </Routes>
     </BrowserRouter>
-    <footer className='flex mx-auto w-[25%] h-[100px] mt-10 justify-center border-t'>
-      <p className='m-auto text-gray-400 text-[14px]'>© Michael Diaz 2024</p>
+    <footer className='flex mx-auto w-[25%] h-[100px] justify-center border-t'>
+      <p className='m-auto text-gray-400 text-[14px]'>© Michael Diaz 2025</p>
     </footer>
   </StrictMode>,
 )
