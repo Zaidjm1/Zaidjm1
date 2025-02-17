@@ -16,6 +16,8 @@ export default {
       fontFamily: {
         bio: ['"BioRhyme"', "serif"],
         runic: ['"Noto Sans Runic"', "sans-serif"],
+        yeseva: ['"Yeseva One"', "serif"],
+        josefin: ['"Josefin Sans"', "serif"],
       }
     },
   },

@@ -21,23 +21,23 @@ export default function App(){
     return(
         <div>
             <div className="mt-[200px] text-center text-[26px] md:text-[34px] font-runic h-[100vh]">
-            <p>Hi, I am Michael Jay</p>
+            <p className='font-yeseva'>Hi, I am Michael Jay</p>
             <TypeAnimation
                 sequence={[
                     // Same substring at the start will only be typed out once, initially
-                    'Developer',
+                    'DEVELOPER',
                     3000, // wait 1s before replacing "Mice" with "Hamsters"
-                    'Programmer',
+                    'PROGRAMMER',
                     3000,
                 ]}
                 wrapper="span"
                 speed={20}
-                style={{ fontWeight: 'bold', fontSize: '1.5em', display: 'inline-block' }}
+                style={{ fontFamily: 'monospace' ,fontWeight: 'bold', fontSize: '1.5em', display: 'inline-block'}}
                 repeat={Infinity}
             />
-                <p className="text-center text-[18px] md:text-[24px] mt-[-10px] text-gray-500">from CvSU - Tanza</p>
-                <p className="text-center text-[12px] md:text-[18px] mt-10">Powered by</p>
-                <div className='flex justify-center mt-10 gap-6 md:gap-10'>
+                <p className="font-josefin text-center text-[18px] md:text-[24px] mt-[-px] text-gray-500">Cavite State University - Tanza</p>
+                <p className="font-bio text-center text-[12px] md:text-[18px] mt-20">Created using</p>
+                <div className='flex justify-center mt-4 gap-6 md:gap-10'>
                     <img src={ts} className='size-8 md:size-14' title='TypeScript'/>
                     <img src={html} className='size-8 md:size-14' title='HTML'/>
                     <img src={js} className='size-8 md:size-14' title='JavaScript'/>
@@ -47,8 +47,8 @@ export default function App(){
             </div>
 
             <div className='h-[100vh]'>
-                <p className='mb-20 text-[16px] md:text-[30px] font-bold text-center font-bio'>SKILLS</p>
-                <p className='text-center text-[12px] md:text-[20px] font-mono mb-10'>Here are the skills that I am highly proficient with.</p>
+                <p className='mb-20 text-[16px] md:text-[30px] font-bold text-center font-yeseva'>SKILLS</p>
+                <p className='text-center text-[12px] md:text-[20px] font-josefin mb-4'>Here are the skills that I am highly proficient with.</p>
 
                 <div className='flex justify-center gap-6'>
                     <div className='group h-20'>
@@ -124,9 +124,9 @@ export default function App(){
                     </div>
                 </div>
 
-                <p className='text-center text-[20px] md:text-[30px] font-bio mt-10 font-bold'>TOOLS</p>
+                <p className='text-center text-[20px] md:text-[30px] font-yeseva mt-20 font-bold'>TOOLS</p>
 
-                <div className='flex justify-center gap-6 mt-10'>
+                <div className='flex justify-center gap-6 mt-4'>
                     <div className='group h-20'>
                         <div className='h-[50px] w-[50px] md:h-[80px] md:w-[80px] bg-gray-700 flex justify-center items-center rounded-md'>
                         <img src={excel} className='h-10 w-[60px] grayscale group-hover:grayscale-0' />
@@ -166,13 +166,13 @@ export default function App(){
 
             <div className='h-[100vh]'>
 
-            <p className='mb-20 text-[14px] md:text-[20px] font-bold text-center font-bio'>Personal Projects</p>
+            <p className='mb-20 text-[14px] md:text-[30px] font-bold text-center font-yeseva'>PROJECTS</p>
 
                 <div className='md:flex md:justify-center md:gap-10 animate-fade-up'>
-                    <a href='https://zaiiiiiid.github.io/'><div className='group font-runic text-[12px] md:text-[14px] mb-10'>
+                    <a href='https://zaiiiiiid.github.io/'><div className='group text-[12px] md:text-[14px] mb-10'>
                         <div className='h-auto max-w-[360px] md:h-[400px] md:max-w-[600px] m-auto rounded-md border shadow-lg bg-gray-100 hover:bg-gray-700 cursor-pointer transition-colors'>
                             <img src={project1} className='rounded max-h-[280px] relative m-auto max-w-[90%] mt-10 group-hover:scale-105 transition duration-500'/>
-                            <p className='text-center mt-4 mb-4 md:mt-10 font-serif group-hover:hidden'>My first ever project. A website about me and my capstone project.</p>
+                            <p className='text-center mt-4 mb-4 md:mt-10 font-josefin group-hover:hidden'>My first ever project. A website about me and my capstone project.</p>
                             <div className='flex justify-center mt-10 mb-10 gap-10 hidden group-hover:flex'>
                                 <img src={html} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='HTML'/>
                                 <img src={js} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='JavaScript'/>
@@ -182,10 +182,10 @@ export default function App(){
                         </div>
                     </div></a>
 
-                    <a href='https://zaidjm1.github.io/mighty-tea/'><div className='group font-runic text-[12px] md:text-[14px] mb-10'>
+                    <a href='https://zaidjm1.github.io/mighty-tea/'><div className='group text-[12px] md:text-[14px] mb-10'>
                         <div className='h-auto max-w-[360px] md:h-[400px] md:max-w-[600px] m-auto rounded-md border shadow-lg bg-gray-100 hover:bg-gray-700 cursor-pointer transition-colors'>
                             <img src={project2} className='rounded max-h-[280px] relative m-auto max-w-[90%] mt-10 group-hover:scale-105 transition duration-500'/>
-                            <p className='text-center mt-4 mb-4 md:mt-10 font-serif group-hover:hidden'>Mighty Tea.</p>
+                            <p className='text-center mt-4 mb-4 md:mt-10 font-josefin group-hover:hidden'>Mighty Tea.</p>
                             <div className='flex justify-center mt-10 mb-10 gap-10 hidden group-hover:flex'>
                                 <img src={ts} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='TypeScript'/>
                                 <img src={html} className='size-6 md:size-10 animate-fade-up animate-duration-1000' title='HTML'/>
