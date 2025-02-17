@@ -41,8 +41,8 @@ export default function App(){
                     <img src={ts} className='size-8 md:size-14' title='TypeScript'/>
                     <img src={html} className='size-8 md:size-14' title='HTML'/>
                     <img src={js} className='size-8 md:size-14' title='JavaScript'/>
-                    <img src={twcss} className='h-8 w-12 md:h-14 md:w-16' title='TailwindCSS'/>
-                    <img src={react} className='size-8 md:size-14' title='ReactJS'/>
+                    <img src={twcss} className='h-8 w-12 md:h-12 md:w-[70px]' title='TailwindCSS'/>
+                    <img src={react} className='size-8 md:h-14 md:w-[60px]' title='ReactJS'/>
                 </div>
             </div>
 
