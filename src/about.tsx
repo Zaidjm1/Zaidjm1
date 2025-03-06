@@ -9,11 +9,9 @@ export default function About(){
 
             <div className="ml-auto mr-auto md:w-[1000px] mt-10 mb-10 font-mono text-justify px-10 animate-fade-left">
 
-                <p className="md:text-[18px] text-[16px]">Hi, I'm Michael Jay. I love building and creating fun stuff since I was a kid.</p>
+                <p className='text-center uppercase font-bold text-[20px] font-bio'>FRONT END WEB DEVELOPER based in Manila, Philippines</p>
 
-                <p className="mt-10 md:text-[18px] text-[16px]">During my 3rd and 4th year of college I've worked on a capstone project, a school portal that handles all the students records and information.</p>
-
-                <p className="mt-10 md:text-[18px] text-[16px]">Aside from my capstone, I also worked as an Intern to a company named MEUT, a new dating site company by that time.</p>
+                <p className="md:text-[18px] text-[16px] text-center mt-10 font-mono">Hello! my name is Michael Jay and I main stack that is all about front end web development but I do have and currently working on my back end stack like node.js and laravel.</p>
 
                 <p className="mt-20 md:text-[18px] text-[16px] text-center font-bold">If you're interested and want to know more about me</p>
 
